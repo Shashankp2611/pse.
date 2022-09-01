@@ -98,7 +98,7 @@ h6 {
       background: rgba(4, 0, 7, 0.85);
 
   z-index: 997;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 #header.header-scrolled,
@@ -1590,6 +1590,44 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa {
+  padding: -10px;
+  font-size: 25px;
+  width: 30px;
+  text-decoration: chocolate;
+  margin: 5px 40px;
+}
+
+h1 {
+  color: green;
+}
+</style>
+
 
 #footer .footer-top .footer-links ul {
   list-style: none;
