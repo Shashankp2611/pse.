@@ -94,63 +94,51 @@
                 
             </div>
         </div>
-          <head>
-        <meta name="viewport" content=
-            "width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href=
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    
-        <style>
-    
-            .center {
-                text-align: center;
-                width: 100%;
-            }
-    
-            .fa:hover {
-                opacity: 0.9;
-            }
-    
-            .fa-linkedin {
-                background: #007bb5;
-                color: white;
-                
-            }
-    
-            .fa-pinterest {
-                background: #cb2027;
-                color: white;
-            }
-    
-            .fa-reddit {
-                background: #ff5700;
-                color: white;
-            }
-    
-            .fa {
-                padding: -10px;
-                font-size: 25px;
-                width: 30px;
-                text-decoration: chocolate;
-                margin: 5px 40px;
-            }
-    
-            h1 {
-                color: green;
-            }
-        </style>
-    </head>
-    
-    <body>
-        
-        
-            <!-- Add font awesome icons -->
-            <a href="https://instagram.com/purple.star.entertainment?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
-            <a href="https://www.facebook.com/Purple.Star.Entertainment" class="fa fa-facebook"></a>
-            <a href="https://youtube.com/c/PurpleStarEntertainment" class="fa fa-youtube"></a>
-        
-    </body>
-  
+        <html>
+            <head>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               
+               <style>
+                   div.centered{
+                    display: grid;
+                    column-gap: 5px;
+                    justify-content: center;
+                    grid-template-columns: auto auto auto auto;  /* Specifies 4 columns each of auto width  */
+                }
+                div.centered a{
+                    padding: 3px 3px;
+                    border-radius: 0.5px;
+                    font-size: 20px;
+                    color: white;
+                    display: inline-block;
+                    margin-bottom: 20px;
+                }
+                div.centered a:hover{
+                    opacity: 0.8;
+                }
+                .fb{
+                    background: #1877f2 ;
+                }
+                .insta{
+                    background: #fb3958;
+                }
+                .twitter{
+                    background: #00acee;
+                }
+                .linkedin{
+                    background: #0e76a8;
+                }
+               </style>
+            </head>
+            <body>
+                <div class="centered">
+                    <a href="https://www.facebook.com/Purple.Star.Entertainment" class="fb"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/purple.star.entertainment?igshid=YmMyMTA2M2Y=" class="insta"><i class="fa fa-instagram"></i></a>
+                    <a href="https://youtube.com/c/PurpleStarEntertainment" class="twitter"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/purple-star-entertainment/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </body>
+            </html>
     </footer><!-- End Footer -->
 
    
